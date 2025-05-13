@@ -32,7 +32,5 @@ jobs:
 
             # Step 4: Run the tests
             - name: Run tests
-              run: |
-                # Run your test command here, e.g., pytest
-                pytest --maxfail=1 --disable-warnings -q
+              run: pytest
 
